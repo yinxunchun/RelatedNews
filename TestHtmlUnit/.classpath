@@ -10,18 +10,26 @@
 	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/cssparser-0.9.13.jar"/>
 	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/htmlunit-2.14.jar"/>
 	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/htmlunit-core-js-2.14.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/httpclient-4.3.2.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/httpcore-4.3.1.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/httpmime-4.3.2.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/jetty-http-8.1.14.v20131031.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/jetty-io-8.1.14.v20131031.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/jetty-util-8.1.14.v20131031.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/jetty-websocket-8.1.14.v20131031.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/nekohtml-1.9.20.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/sac-1.3.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/serializer-2.7.1.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/xalan-2.7.1.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/xercesImpl-2.11.0.jar"/>
-	<classpathentry kind="lib" path="D:/workspace/TestHtmlUnit/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/commons-lang3-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/cssparser-0.9.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/htmlunit-2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/htmlunit-core-js-2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/httpclient-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/httpcore-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/httpmime-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/jetty-http-8.1.14.v20131031.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/jetty-io-8.1.14.v20131031.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/jetty-util-8.1.14.v20131031.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/jetty-websocket-8.1.14.v20131031.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/nekohtml-1.9.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/训春/git/TestHtmlUnit/TestHtmlUnit/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
