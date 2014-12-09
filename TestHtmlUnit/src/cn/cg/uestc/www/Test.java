@@ -20,7 +20,7 @@ public class Test {
 
 	public static void main(String[] args) throws IOException{
 		
-		String url = "http://comment.news.163.com/news3_bbs/AARIU36C00014JB6.html";
+		String url = "http://news.baidu.com/ns?ct=1&rn=20&ie=utf-8&rsv_bp=1&sr=0&cl=2&f=8&prevct=no&tn=news&word=%E5%8C%97%E4%BA%AC%E5%86%8D%E9%81%87%E9%9B%BE%E9%9C%BE%20%E5%A4%9A%E5%9C%B0%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F%E9%99%8D%E8%87%B3%E9%87%8D%E5%BA%A6%E6%B1%A1%E6%9F%93&qq-pf-to=pcqq.c2c";
 		
 		String refer="http://www.cnblogs.com/";
         URL link=new URL(url); 
