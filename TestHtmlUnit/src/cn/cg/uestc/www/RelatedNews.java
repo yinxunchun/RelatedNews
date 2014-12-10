@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -25,7 +26,15 @@ public class RelatedNews {
 	public static void main(String[] args){
 		RelatedNews test = new RelatedNews();
 		//要处理的网页
-		String url = "http://news.baidu.com/ns?ct=1&rn=20&ie=utf-8&rsv_bp=1&sr=0&cl=2&f=8&prevct=no&tn=news&word=%E5%8C%97%E4%BA%AC%E5%86%8D%E9%81%87%E9%9B%BE%E9%9C%BE%20%E5%A4%9A%E5%9C%B0%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F%E9%99%8D%E8%87%B3%E9%87%8D%E5%BA%A6%E6%B1%A1%E6%9F%93&qq-pf-to=pcqq.c2c";
+		String url = "http://news.baidu.com/ns?ct=1&rn=20&ie=utf-8&rsv_bp=1&sr=0&cl=2&f=8&prevct=no&tn=news&word=";
+		String bufString = "北京再遇雾霾 多地空气质量降至重度污染";
+		try {
+			bufString =java.net.URLEncoder.encode(bufString, "utf-8");
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		url += bufString;
 		//总条数
 		Queue<String> totalLabel = null;
 		//获取html
@@ -72,23 +81,27 @@ public class RelatedNews {
 	    InputStream inputStream;
 	    BufferedReader bufferedReader;
 	    
-		int state;
+		int state = 0;
+		URL tt ;
 		//判断url是否为有效连接
 		try{
-			httpUrlConnection = (HttpURLConnection) new URL(url).openConnection(); //创建连接
+			tt = new URL(url);
+			httpUrlConnection = (HttpURLConnection) tt.openConnection(); //创建连接
 			state = httpUrlConnection.getResponseCode();
 			httpUrlConnection.disconnect();
 		}catch (MalformedURLException e) {
-//          e.printStackTrace();
+          e.printStackTrace();
 			System.out.println("该连接"+url+"网络有故障，已经无法正常链接，无法获取新闻");
-			return null ;
+//			return null ;
 		} catch (IOException e) {
           // TODO Auto-generated catch block
-//          e.printStackTrace();
-			System.out.println("该连接"+url+"网络超级慢，已经无法正常链接，无法获取新闻");
-			return null ;
+          e.printStackTrace();
+			System.out.println("该连接\t"+url+"\t网络超级慢，已经无法正常链接，无法获取新闻");
+//			return null ;
       }
-		if(state != 200 && state != 201){
+		
+		if(state != 200 && state != 401){
+			System.out.println(state);
 			return null;
 		}
   
